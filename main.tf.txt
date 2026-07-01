@@ -1,0 +1,11 @@
+resource "btp_subaccount" "my_subaccount" {
+  name        = "my-dev-subaccount"
+  subdomain   = "mydevsubaccount" # Must be unique globally within your region
+  region      = "us10"           # Example: "us10" (US East), "eu10" (Europe), "ap11" (Asia)
+  description = "Development subaccount created via Terraform"
+
+  labels = {
+    "environment" = "development"
+    "project"     = "sap-btp-automation"
+  }
+}
