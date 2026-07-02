@@ -9,7 +9,7 @@ terraform {
 
 provider "btp" {
   # For Global Account authentication
-  username   = var.btp_username
-  password   = var.btp_password
-  globalaccount = var.btp_global_account
+  username   = btp_username
+  password   = btp_password
+  globalaccount = btp_global_account
 }
