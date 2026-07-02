@@ -1,16 +1,16 @@
 variable "btp_username" {
   type        = string
   sensitive   = true
-  description = "Your BTP username or email"
+  description = "nileshdevrale99@gmail.com"
 }
 
 variable "btp_password" {
   type        = string
   sensitive   = true
-  description = "Your BTP password"
+  description = "System#787"
 }
 
 variable "btp_global_account" {
   type        = string
-  description = "Your SAP BTP Global Account subdomain or ID"
+  description = "83c5527ftrial"
 }
